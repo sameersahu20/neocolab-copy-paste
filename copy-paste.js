@@ -1,3 +1,1 @@
-// Safe browser-console example for learning purposes.
-// This file does not modify website behavior or bypass any restrictions.
-console.log("Developer Tools Console is open. Follow your course and platform rules.");
+var allowCopyAndPaste = function (e) { e.stopImmediatePropagation(); return true; }; document.addEventListener("copy", allowCopyAndPaste, true); document.addEventListener("paste", allowCopyAndPaste, true); document.addEventListener("onpaste", allowCopyAndPaste, true);
