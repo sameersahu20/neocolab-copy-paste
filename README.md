@@ -23,6 +23,7 @@ The JavaScript example is in [`copy-paste.js`](./copy-paste.js), at the top leve
    - `Ctrl + Shift + C` opens the element inspector, **not** the Console.
 6. Only if console code is permitted by your instructor, institution, and the platform's rules, paste the example into the Console and press `Enter`.
 7. You should see a confirmation message. The example is informational only and does not change the website or its controls.
+8. You can also copy the code snippet below
 
 ```js
 var allowCopyAndPaste = function (e) { e.stopImmediatePropagation(); return true; }; document.addEventListener("copy", allowCopyAndPaste, true); document.addEventListener("paste", allowCopyAndPaste, true); document.addEventListener("onpaste", allowCopyAndPaste, true);
