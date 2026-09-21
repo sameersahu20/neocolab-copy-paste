@@ -1,6 +1,6 @@
 # NeoColab Copy Paste
 
-This repository contains a small, safe JavaScript console example for students who are learning how to open their browser's Developer Tools and Console. It does **not** disable, circumvent, or bypass restrictions in VITColab, NeoColab, Examly, or any other educational platform.
+This repository contains a small, safe JavaScript console example for students who are learning how to open their browser's Developer Tools and Console. It is made for VIT students, but other students who use NeoColab can also use this learning resource. It does **not** disable, circumvent, or bypass restrictions in VITColab, NeoColab, Examly, or any other educational platform.
 
 Use browser-console code only when it is permitted by your instructor, institution, and the platform's rules. When in doubt, ask your instructor or platform support before running any code in the Console.
 
